@@ -1,0 +1,20 @@
+# CODEBOOk
+## Variables
+###### testbound: combines subjecttest, ytest and xtest datasets
+trainboud: combines subjecttrain, ytrain and xtrain datasets
+bound: combines testbound and trainbound datasets
+bound2: merges activity and bound datasets using the "actvnum" column, incorporating all columns
+
+##Data
+######The data represents data collected from the accelerometers from the Samsung Galaxy S smartphone
+
+## Updates to Fields
+###### updates lines starting with "t" to "Time"
+updates lines starting with "f" to "Frequency"
+updates "BodyBody" to "Body"
+updates ".meanFreq" to "MeanFrequency"
+updates ".mean" to "Mean"
+updates ".std" to "StandardDeviation"
+updates "Acc" to "Accelerometer"
+updates "Gyro" to "Gyroscope"
+updates "Mag" to "Magnitude"
